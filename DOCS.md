@@ -1,7 +1,3 @@
-
-> satispay-online-api@1.0.0 doc /home/kakashi/Workspace/outsourcing/node-satispay-online-api
-> jsdoc2md lib/satispay.js
-
 <a name="Satispay"></a>
 
 ## Satispay
