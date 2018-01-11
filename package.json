@@ -1,0 +1,46 @@
+{
+  "name": "satispay-online-api",
+  "version": "1.0.0",
+  "description": "Nodejs wrapper for satispay online api",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js",
+    "doc": "jsdoc2md lib/satispay.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cicciodifranco/node-satispay-online-api.git"
+  },
+  "keywords": [
+    "Satispay",
+    "nodejs",
+    "satispay-node-sdk",
+    "staispay-node-online-api"
+  ],
+  "author": "Francesco Di Franco",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cicciodifranco/node-satispay-online-api/issues"
+  },
+  "homepage": "https://github.com/cicciodifranco/node-satispay-online-api#readme",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-runtime": "^6.23.0",
+    "bluebird": "^3.5.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.3.1",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-promise": "^3.0.0",
+    "eslint-plugin-standard": "^2.0.0",
+    "jsdoc": "^3.5.5",
+    "jsdoc-to-markdown": "^3.0.4"
+  }
+}
